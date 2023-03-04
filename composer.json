@@ -1,0 +1,37 @@
+{
+  "name": "eftec/api-assembler",
+  "description": "A fast api generator",
+  "type": "library",
+  "require": {
+    "php": ">=7.2.5",
+    "eftec/clione": "^1.21",
+    "eftec/pdoone": "^3.9",
+    "eftec/validationone": "^2.4",
+    "eftec/routeone": "^1.24",
+    "ext-json": "*",
+    "eftec/cacheone": "^2.12.4",
+    "eftec/authone": "^1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "license": "LGPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "eftec\\apiassembler\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "eftec\\tests\\": "tests/",
+      "api\\": "",
+      "examples\\": "examples/"
+    }
+  },
+  "authors": [
+    {
+      "name": "jorgecc",
+      "email": "jcastro@eftec.cl"
+    }
+  ]
+}

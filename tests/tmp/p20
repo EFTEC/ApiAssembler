@@ -1,0 +1,328 @@
+<?php http_response_code(404); die(1); // it is a configuration file. This line prevents to display it online ?>
+{
+    "databasetype": "mysql",
+    "server": "127.0.0.1",
+    "user": "root",
+    "password": "abc.123",
+    "database": "sakila",
+    "questionencryption": null,
+    "encryptionpassword": null,
+    "encryptionsalt": null,
+    "encryptioniv": null,
+    "encryptionmethod": null,
+    "hashmethod": null,
+    "classnamespace": "eftec\\tests\\tmp\\repo2",
+    "namespaceapi": "eftec\\tests\\tmp",
+    "composerpath": "..\/..\/vendor",
+    "classdirectory": "repo2",
+    "folderapi": "api",
+    "tables": null,
+    "tablexclass": {
+        "actor": "ActorRepo",
+        "actor2": "Actor2Repo",
+        "address": "AddresRepo",
+        "category": "CategoryRepo",
+        "city": "CityRepo",
+        "country": "CountryRepo",
+        "customer": "CustomerRepo",
+        "dummyt": "DummytRepo",
+        "dummytable": "DummytableRepo",
+        "film": "FilmRepo",
+        "film2": "Film2Repo",
+        "film_actor": "FilmActorRepo",
+        "film_category": "FilmCategoryRepo",
+        "film_text": "FilmTextRepo",
+        "fum_jobs": "FumJobRepo",
+        "fum_logs": "FumLogRepo",
+        "inventory": "InventoryRepo",
+        "language": "LanguageRepo",
+        "mysec_table": "MysecTableRepo",
+        "payment": "PaymentRepo",
+        "product": "ProductRepo",
+        "producttype": "ProducttypeRepo",
+        "producttype_auto": "ProducttypeAutoRepo",
+        "rental": "RentalRepo",
+        "staff": "StaffRepo",
+        "store": "StoreRepo",
+        "tablachild": "TablachildRepo",
+        "tablagrandchild": "TablagrandchildRepo",
+        "tablaparent": "TablaparentRepo",
+        "tabletest": "TabletestRepo",
+        "test_products": "TestProductRepo",
+        "typetable": "TypetableRepo"
+    },
+    "classMethods": {
+        "ActorRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "Actor2Repo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "AddresRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "CategoryRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "CityRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "CountryRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "CustomerRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "DummytRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "DummytableRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FilmRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "Film2Repo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FilmActorRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FilmCategoryRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FilmTextRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FumJobRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "FumLogRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "InventoryRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "LanguageRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "MysecTableRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "PaymentRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "ProductRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "ProducttypeRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "ProducttypeAutoRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "RentalRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "StaffRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "StoreRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TablachildRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TablagrandchildRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TablaparentRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TabletestRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TestProductRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ],
+        "TypetableRepo": [
+            {
+                "name": "listall",
+                "type": "listall",
+                "verb": "ALL",
+                "argument1": ""
+            }
+        ]
+    },
+    "questionroute": "yes",
+    "questionaccess": "yes",
+    "questiondev": "dev",
+    "machineid": "PCJC",
+    "baseurl_dev": "http:\/\/localhost\/currentproject\/ApiAssembler\/tests\/tmp\/",
+    "baseurl_prod": "http:\/\/localhost\/currentproject\/ApiAssembler\/tests\/tmp\/",
+    "templateurl": "",
+    "questioncache": null,
+    "cache_type": null,
+    "cache_server": null,
+    "cache_schema": null,
+    "cache_port": null,
+    "cache_user": null,
+    "cache_password": null,
+    "trysavescript": "yes",
+    "filenamescript": "p20s"
+}

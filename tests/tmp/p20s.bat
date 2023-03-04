@@ -1,0 +1,1 @@
+@php D:\www\currentproject\ApiAssembler\src\ApiAssembler3.php -create -file p20

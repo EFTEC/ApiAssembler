@@ -1,0 +1,31 @@
+<?php
+
+namespace eftec;
+use eftec\apiassembler\ApiAssembler;
+
+
+// this code only runs on CLI but only if pdoonecli.php is called directly and via command line.
+if (!defined('PHPUNIT_COMPOSER_INSTALL') && !defined('__PHPUNIT_PHAR__')
+    && isset($_SERVER['PHP_SELF']) &&
+    ( basename($_SERVER['PHP_SELF']) === 'apiassembler' || basename($_SERVER['PHP_SELF']) === 'apiassembler2')
+) {
+    // we also excluded it if it is called by phpunit.
+
+
+    $initPath = getcwd() ?: __DIR__;
+    $prefix = '';
+    $defaultvendor = $initPath;
+    // finding vendor
+    for ($i = 0; $i < 8; $i++) {
+        if (@file_exists("$initPath/{$prefix}vendor/autoload.php")) {
+            $path = "$initPath/{$prefix}vendor/autoload.php";
+            break;
+        }
+        $prefix .= '../';
+    }
+    include_once $path ;
+    $a=new PdoOneCli();
+    $cli = new ApiAssembler();
+    /** @noinspection PhpUnhandledExceptionInspection */
+    $cli->cliEngine();
+}
