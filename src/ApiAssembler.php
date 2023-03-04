@@ -14,10 +14,19 @@ use eftec\ValidationOne;
 use Exception;
 use RuntimeException;
 
+/**
+ * Class ApiAssembler
+ *
+ * @package   ApiAssembler
+ * @copyright 2022-2023 Jorge Castro Castillo
+ * @license   (dual licence lgpl v3 and commercial)
+ * @version   1.3
+ * @link      https://github.com/EFTEC/ApiAssembler
+ */
 class ApiAssembler extends PdoOneCli
 {
     //<editor-fold desc="fields">
-    public const VERSION = '1.2';
+    public const VERSION = '1.3';
     /** @var ApiAssemblerRuntime */
     public static $instance;
     public static $counter = 0;

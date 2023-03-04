@@ -10,8 +10,6 @@ if (!defined('PHPUNIT_COMPOSER_INSTALL') && !defined('__PHPUNIT_PHAR__')
     ( basename($_SERVER['PHP_SELF']) === 'apiassembler' || basename($_SERVER['PHP_SELF']) === 'apiassembler2')
 ) {
     // we also excluded it if it is called by phpunit.
-
-
     $initPath = getcwd() ?: __DIR__;
     $prefix = '';
     $defaultvendor = $initPath;
@@ -22,6 +20,10 @@ if (!defined('PHPUNIT_COMPOSER_INSTALL') && !defined('__PHPUNIT_PHAR__')
             break;
         }
         $prefix .= '../';
+    }
+    if(!isset($path)) {
+        echo "autoload.php not found";
+        die(1);
     }
     include_once $path ;
     $a=new PdoOneCli();

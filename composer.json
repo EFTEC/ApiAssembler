@@ -1,15 +1,15 @@
 {
-  "name": "eftec/api-assembler",
+  "name": "eftec/apiassembler",
   "description": "A fast api generator",
   "type": "library",
   "require": {
     "php": ">=7.2.5",
-    "eftec/clione": "^1.21",
-    "eftec/pdoone": "^3.9",
-    "eftec/validationone": "^2.4",
-    "eftec/routeone": "^1.24",
+    "eftec/clione": "^1.22.2",
+    "eftec/pdoone": "^3.16",
+    "eftec/validationone": "^2.7",
+    "eftec/routeone": "^1.27",
     "ext-json": "*",
-    "eftec/cacheone": "^2.12.4",
+    "eftec/cacheone": "^2.13",
     "eftec/authone": "^1.4"
   },
   "require-dev": {
@@ -33,5 +33,8 @@
       "name": "jorgecc",
       "email": "jcastro@eftec.cl"
     }
+  ],
+  "bin": [
+    "src/apiassembler"
   ]
 }

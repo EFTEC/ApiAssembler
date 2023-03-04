@@ -14,9 +14,9 @@ This library is compatible with the next databases (using the component PDO):
 
 * ORACLE 12c and higher
 
-[![Packagist](https://img.shields.io/packagist/v/eftec/ApiAssembler.svg)](https://packagist.org/packages/eftec/ApiAssembler)
-[![Total Downloads](https://poser.pugx.org/eftec/ApiAssembler/downloads)](https://packagist.org/packages/eftec/ApiAssembler)
-[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
+[![Packagist](https://img.shields.io/packagist/v/eftec/apiassembler.svg)](https://packagist.org/packages/eftec/ApiAssembler)
+[![Total Downloads](https://poser.pugx.org/eftec/apiassembler/downloads)](https://packagist.org/packages/eftec/ApiAssembler)
+[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 [![composer](https://img.shields.io/badge/composer-%3E1.6-blue.svg)]()
 [![php](https://img.shields.io/badge/php-7.1-green.svg)]()
 [![php](https://img.shields.io/badge/php-8.x-green.svg)]()
@@ -481,19 +481,20 @@ $value=$this->api->routeOne->getRequest('key','default value if not found');
 
 
 ## Changelog
-
+* 1.3 2023-03-04
+  * added bin in composer. 
 * 1.2 2023-03-04
   * Updates to the code.
 * 1.0 2022-09-01
   * First release version
 
 * 0.2 2022-03-06
-  - [ ] generate script
-  - [ ] generate apicontroller
-  - [ ] save script correctly
-  - [ ] interactiva
-  - [ ] non interactive
-  - [ ] save file
+  - [X] generate script
+  - [X] generate apicontroller
+  - [X] save script correctly
+  - [X] interactive
+  - [X] non-interactive
+  - [X] save file
 
 * 0.1 first version
 
